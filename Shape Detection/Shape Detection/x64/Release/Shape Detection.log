@@ -1,0 +1,23 @@
+﻿Build started 5/31/2019 4:24:56 PM.
+     1>Project "D:\Ashraf\الجامعة\Image Processing\HW\HW2\Code\Shape Detection\Shape Detection\Shape Detection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Ic:\opencv\build\include /Ic:\opencv\build\include\opencv /Ic:\opencv\build\include\opencv2 /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(80): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>Source.cpp(86): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(94): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>Source.cpp(100): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(103): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>Source.cpp(109): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Source.cpp(113): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>Source.cpp(119): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Ashraf\الجامعة\Image Processing\HW\HW2\Code\Shape Detection\x64\Release\Shape Detection.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Ashraf\الجامعة\Image Processing\HW\HW2\Code\Shape Detection\x64\Release\Shape Detection.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Ashraf\الجامعة\Image Processing\HW\HW2\Code\Shape Detection\x64\Release\Shape Detection.lib" /MACHINE:X64 x64\Release\Source.obj
+         Generating code
+         Finished generating code
+         Shape Detection.vcxproj -> D:\Ashraf\الجامعة\Image Processing\HW\HW2\Code\Shape Detection\x64\Release\Shape Detection.exe
+     1>Done Building Project "D:\Ashraf\الجامعة\Image Processing\HW\HW2\Code\Shape Detection\Shape Detection\Shape Detection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.93
